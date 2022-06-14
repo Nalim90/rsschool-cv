@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPortfolio</title>
-    <link rel="shortcut icon" href="D:IT/Projects/testRepo/rsschool-cv/assets/img/favicon.ico">
+    <title>MyCV</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+    <div class="bg">
+
     <header class="header">
-        <div class="container"></div>
         <nav class="nav">
             <ul class="nav-list">
               <li class="nav-item"><a href="#r1" class="nav-link">ABOUT ME</a></li>
@@ -23,26 +25,35 @@
               <li class="nav-item"><a href="#r7" class="nav-link">CONTACTS</a></li>
             </ul>
           </nav>
-
-        <img src="D:IT/Projects/testRepo/rsschool-cv/assets/img/photo.jpg" alt="MyAvatar">
+        <img class="avatar" src="./assets/img/photo.jpg" alt="MyAvatar">
     </header>
 
 <main class="main">
-<h2 id="r1">ABOUT ME</h2>
-<p>I'm 32 years old. I enjoy playing the guitar and computer games, listening to music.
- I like to travel on my car. I like to study and learn new things.
- My dream is to become professional front-end developer, and believing that my dream comes true.</p>
+        <h1 class="ALEXANDERPRAVILOV">ALEXANDER PRAVILOV</h1>
+        <p class="note">Beginning Front-end Developer</p>
 
- <h2 id="r2">SKILLS</h2>
- <ul>
+
+    <section class="section" id="aboutme">
+        <h2 class="section-title" id="r1">ABOUT ME</h2></section>
+<p class="points">I'm 32 years old. I enjoy playing the guitar and computer games, listening to music.
+ I like to travel on my car. I like to study and learn new things.
+ My dream is to become professional front-end developer, and believing that my dream comes true with the help of the Rolling Scopes School</p>
+
+
+        <section class="section" id="skills">
+ <h2 class="section-title" id="r2">SKILLS</h2></section>
+ <ul class="points">
      <li>Git</li>
      <li>HTML & CSS</li>
      <li>Adobe Photoshop</li>
      <li>SonyVegasPro</li>
  </ul>
 
- <h2 id="r3">QUALITIES</h2>
- <ul>
+
+
+<section class="section" id="qualities">
+ <h2 class="section-title" id="r3">QUALITIES</h2></section>
+ <ul class="points">
     <li>Attentive</li>
     <li>Calm</li>
     <li>Committed</li>
@@ -50,30 +61,51 @@
     <li>Hard-working</li>
  </ul>
 
- <h2 id="r4">EDUCATION</h2>
- <ul>
+
+<section class="section" id="education">
+ <h2 class="section-title" id="r4">EDUCATION</h2></section>
+ <ul class="points">
     <li>Vitebsk State Technological University: Process Engineer (2008-2013)</li>
     <li>English - B1 Intermediate</li>
  </ul>
 
- <h2 id="r5">PROJECTS</h2>
 
-   <p>My first and the only one project is my CV ССЫЛКУ ДОБАВИТЬ
-</p>
+<section class="section" id="projects">
+ <h2 class="section-title" id="r5">PROJECTS</h2></section>
+   <p class="points"> <a href="https://nalim90.github.io/rsschool-cv/" class="cv-link" title="MyCVProject">My CV Project</a>
+   </p>
 
- <h2 id="r6">CODE</h2>
 
- <h2 id="r7">CONTACTS</h2>
- <ul>
+<section class="section" id="code">
+ <h2 class="section-title" id="r6">CODE</h2></section>
+<p class="points">function factorial(n) {
+    if (n > 0) return triple;
+    if (n = 4) return 2 or 0;
+    return n * factorial(n-2);
+   }</p>
+
+<section class="section" id="contacts">
+ <h2 class="section-title" id="r7">CONTACTS</h2></section>
+ <ul class="points">
     <li>Adress: Belarus, Vitebsk</li>
-    <li>Mobile: +375336766560</li>
+    <li>Mobile: +375456665603</li>
     <li>Email: Nalim_90@mail.ru</li>
     <li>Diskord: Nalim90</li>
  </ul>
+
+
 </main>
 <footer class="footer">
-
+    <div class="container footer-container">
+        <div class="footername">ALEXANDER PRAVILOV © 2022</div>
+            <a href="https://rs.school/js" title="Rolling Scopes School" class="LinkRS"></a>
+        <div class="github">
+            <a href="https://github.com/Nalim90" class="footer-link" title="GitHub">github.com/Nalim90
+            </a>
+        </div>
+    </div>
 
 </footer>
+</div>
 </body>
 </html>
