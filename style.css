@@ -294,6 +294,98 @@ body {
     margin-top: 185px;
 }
 
+.education {
+    background-image: linear-gradient(180deg,rgb(30 31 32 / 80%),
+    rgb(151 161 194 / 50%)),url(./assets/educationFoto.jpg);
+    background-color: #303132;
+    height: 350px;
+
+}
+
+.educationImgCap {
+    width: 80px;
+    height: 80px;
+}
+
+.nameSectionEducation {
+    display: flex;
+    padding-left: 530px;
+    padding-top: 35px;
+    gap: 20px;
+}
+
+.educationImgBook {
+    width: 80px;
+    height: 80px;
+}
+
+.nameSectionTitle {
+    color: #f7f7f7;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: rgb(0 0 0) 3px 0px 5px;
+    padding-top: 18px;
+}
+
+.myEducationDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+    padding-top: 20px;
+}
+
+.descriptionEducation {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: rgb(0, 0, 0) 3px 0px 5px;
+    color: white;
+}
+
+.descriptionEnglish {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: rgb(0, 0, 0) 3px 0px 5px;
+    color: white;
+}
+
+.projects {
+    height: 500px;
+    background: linear-gradient(#94a6aa, #ceceef);
+}
+
+.nameSectionTitleProjects {
+    color: #f7f7f7;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: rgb(0 0 0) 3px 0px 5px;
+    padding-top: 18px;
+    text-decoration: underline;
+    text-decoration-color:#6ab0d9;;
+    text-align: center;
+}
+
+.arrows {
+    display: flex;
+}
+
+.arrowLeft {
+    width: 254px;
+    height: 184px;
+    margin-left: 300px;
+}
+
+.arrowDown {
+    width: 250px;
+    height: 150px;
+    padding-left: 93px;
+}
+
+.arrowRight {
+    width: 254px;
+    height: 184px;
+    margin-left: 85px;
+}
 
 
 
