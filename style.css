@@ -297,7 +297,6 @@ body {
 .education {
     background-image: linear-gradient(180deg,rgb(30 31 32 / 80%),
     rgb(151 161 194 / 50%)),url(./assets/educationFoto.jpg);
-    background-color: #303132;
     height: 350px;
 
 }
@@ -350,8 +349,9 @@ body {
 }
 
 .projects {
-    height: 500px;
+    height: 570px;
     background: linear-gradient(#94a6aa, #ceceef);
+    background-image: url(./assets/projects.jpg);
 }
 
 .nameSectionTitleProjects {
@@ -409,6 +409,98 @@ body {
 
   .projectImage {
     transition: transform 0.8s;
+  }
+
+  .code {
+    height: 350px;
+    background-image: linear-gradient(180deg,
+    rgb(140 182 224 / 41%),
+     rgb(0 0 0 / 50%)), url(./assets/code.jpg);
+  }
+
+  .nameSectionCode {
+    color: #f7f7f7;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: rgb(0 0 0) 10px 4px 4px;
+    padding: 20px 50px;
+  }
+
+  .myCode {
+    color: #f7f7f7;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: rgb(0 0 0) 3px 0px 5px;
+    padding-left: 50px;
+  }
+
+  .contacts {
+    height: 175px;
+    background-image: linear-gradient(180deg,
+    rgb(0 5 9 / 41%),
+    rgb(0 0 0 / 50%)),
+    url(./assets/contacts.jpg);
+  }
+
+  .nameSectionContacts {
+    color: #f7f7f7;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: rgb(0 0 0) 10px 4px 4px;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .myContact {
+    display: flex;
+  }
+
+  .imgContact {
+    width: 50px;
+    height: 50px;
+  }
+
+  .descriptionOfContact {
+    color: #f7f7f7;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow: rgb(0 0 0) 3px 0px 5px;
+    padding-top: 11px;
+    padding-left: 5px;
+  }
+
+  .my-contacts {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    padding-left: 80px;
+  }
+
+  .footer {
+    height: 125px;
+    background: linear-gradient(#303132, #707175);
+    display: flex;
+    gap: 140px;
+    padding-left: 20px;
+  }
+
+  .yearOfcreation {
+    color: #f7f7f7;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgb(0 0 0) 3px 0px 5px;
+    padding-top: 40px;
+  }
+
+  .logoRS {
+    width: 230px;
+    height: 120px;
+  }
+
+  .logoGithub {
+    width: 300px;
+    height: 120px;
   }
 
 
